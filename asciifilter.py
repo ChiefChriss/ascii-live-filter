@@ -52,7 +52,7 @@ ascii_label = tk.Label(root, font=("Courier", 6), bg="black", fg="white", padx=5
 ascii_label.pack(expand=True, fill=tk.BOTH)
 
 # Open a connection to the webcam
-cap = cv2.VideoCapture('http://10.0.0.14:4747/video')
+cap = cv2.VideoCapture('http://10.0.0.14:4747/video') # Add custom ip here
 
 # Start the video thread
 start_video()
